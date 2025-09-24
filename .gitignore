@@ -1,0 +1,18 @@
+$gitignore = @"
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+results.csv
+scored_leads.csv
+*.sqlite3
+.vscode/
+.idea/
+.DS_Store
+"@
+$gitignore | Out-File -Encoding UTF8 .gitignore
+"venv/" 
+"results.csv" 
+"scored_leads.csv" 
+"__pycache__/" 
